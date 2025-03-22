@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ui#8wgewh%6t98l=+=x4pq5pc5e)-zidsj^p$gv^g2&sy)+i26'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['sita3.pythonanywhere.com']
 CSRF_TRUSTED_ORIGINS =  ['https://sita3.pythonanywhere.com']
